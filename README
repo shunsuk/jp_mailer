@@ -1,0 +1,46 @@
+= JP Mailer
+
+  Created by: shunsuk - http://d.hatena.ne.jp/shunsuk/
+  Version: 0.6
+  Contact: http://twitter.com/shunsuk/
+
+This extension extends Mailer Extension to send Japanese mails.
+
+
+== Requirements
+
+Mailer Extension: http://ext.radiantcms.org/extensions/127-mailer
+
+
+== Installation
+
+1. Install Mailer Extension:
+
+http://ext.radiantcms.org/extensions/127-mailer
+
+2. Get the latest version of JP Mailer Extension code:
+
+  cd vendor/extensions
+
+    git clone git://github.com/shusnuk/jp_mailer.git jp_mailer
+
+3. Modifie environment.rb
+
+  config.extensions = [ :mailer, :jp_mailer, :all ]
+
+
+== History
+
+Version: 0.6
+  Initial release
+
+
+== Todo
+
+* Support for HTML mails
+* Tests
+
+
+== Tweets
+
+日本人しか使わないから、英語で書く意味ないよね！
